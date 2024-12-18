@@ -97,8 +97,8 @@ class SalomonBottomBar extends StatelessWidget {
                       onTap: () => onTap?.call(items.indexOf(item)),
                       customBorder: itemShape,
                       focusColor: _selectedColor.withOpacity(0.1),
-                      highlightColor: _selectedColor.withOpacity(0.1),
-                      splashColor: _selectedColor.withOpacity(0.1),
+                      highlightColor: Colors.transparent,
+                      splashColor: Colors.transparent,
                       hoverColor: _selectedColor.withOpacity(0.1),
                       child: Padding(
                         padding: itemPadding -
